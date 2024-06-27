@@ -1,0 +1,80 @@
+:root {
+    --a-color: #333;
+    --b-color: rgb(255, 196, 112);
+    --c-color: rgb(139, 50, 44);
+    --d-color: rgb(71, 147, 175);
+    --e-color: rgb(221, 87, 70);
+}
+
+h1 img {
+    margin-right: 8px;
+}
+
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.navbar-brand {
+    color: var(--a-color);
+}
+.navbar {
+    background-color: var(--b-color);
+    border-bottom: 8px solid var(--c-color);
+}
+
+.nav-underline .nav-link:hover,
+.nav-underline .nav-link.active,
+header .nav-link:focus {
+    border-bottom-color: var(--c-color);
+}
+
+h2, h3 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+#sobre, #cardapio {
+    background-color: rgba(255, 195, 112, 0.3);
+}
+
+#eventos h3,
+.colorir {
+    color: var(--c-color);
+}
+
+#eventos img {
+    max-height: 180px;
+}
+
+.nav-pills .nav-link {
+    color: var(--c-color);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:hover,
+#reservas button {
+    font-weight: bold;
+    color: var(--c-color);
+    background-color: var(--b-color);
+}
+
+.nav-pills .nav-link:hover {
+    color: var(--a-color);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+#reservas button {
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
